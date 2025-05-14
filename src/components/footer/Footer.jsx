@@ -5,14 +5,13 @@ import logo from "@/assets/logo.png"
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center border-t border-blue-500">
-      {/* Left Section: Logo and App Links */}
+      
       <div className="flex items-center space-x-4 mb-4 md:mb-0">
-        {/* Logo */}
+       
         <div className="w-8 h-8 flex items-center justify-center">
           <img src={logo} alt="logo" />
         </div>
 
-        {/* App Store Buttons */}
         <div className="flex flex-col space-y-2">
           <a
             href="#"
@@ -39,7 +38,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Middle Left Section: About Us */}
       <div className="flex flex-col space-y-2 mb-4 md:mb-0">
         <span className="text-sm font-semibold">О нас</span>
         <a href="#" className="flex items-center space-x-2 text-red-500 hover:text-red-700">
@@ -68,7 +66,6 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Middle Right Section: Categories */}
       <div className="flex flex-col space-y-2 mb-4 md:mb-0">
         <span className="text-sm font-semibold">Категории</span>
         <a href="#" className="flex items-center space-x-2 text-red-500 hover:text-red-700">
@@ -97,7 +94,6 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Right Section: Contact and Social Links */}
       <div className="flex flex-col items-center md:items-end">
         <div>
           <span className="text-sm font-semibold">Связаться с нами</span>
