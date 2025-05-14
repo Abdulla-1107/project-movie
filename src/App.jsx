@@ -8,7 +8,7 @@ const App = () => {
   const {data,error,loading} = useFetch("/discover/movie")
 
   return (
-    <div className="container mx-auto flex flex-col">
+    <div className="bg-black">
       <Header/>
       <main className="flex-1">
         <MovieView  movies={data?.results}/>
