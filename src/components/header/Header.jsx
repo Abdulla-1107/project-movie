@@ -15,7 +15,7 @@ const Header = () => {
         <div className="w-8 h-8 bg-orange-600 flex items-center justify-center mr-2">
           <span className="text-white font-bold">|||</span>
         </div>
-        <span className="text-lg font-bold">BILC TICK</span>
+        <span className="text-lg font-bold">Movie</span>
       </div>
 
       <nav className="hidden md:flex space-x-6">
@@ -79,7 +79,6 @@ const Header = () => {
             <span>Поиск</span>
           </a>
 
-          {/* Language and Login for mobile */}
           <div className="flex items-center justify-between mt-4">
             <div className="flex items-center space-x-2">
               <img
