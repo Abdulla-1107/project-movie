@@ -1,13 +1,17 @@
 import React from 'react';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
+import MovieView from './components/movie-view/MovieView';
+import { useFetch } from './hooks/useFetch';
 
 const App = () => {
+  const {data,error,loading} = useFetch("/discover/movie")
+
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="container mx-auto flex flex-col">
       <Header/>
       <main className="flex-1">
-        <div className="p-6"></div>
+        <MovieView  movies={data?.results}/>
       </main>
       <Footer/>
     </div>

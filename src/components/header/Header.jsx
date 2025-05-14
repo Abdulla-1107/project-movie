@@ -10,7 +10,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-black text-white py-4 px-6 flex justify-between items-center relative">
+    <header className="mb-3 bg-black text-white py-4 px-6 flex justify-between items-center relative">
       <div className="flex items-center">
         <div className="w-8 h-8 bg-orange-600 flex items-center justify-center mr-2">
           <span className="text-white font-bold">|||</span>
